@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>HTML CSS</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <section id="header">
-        <div class="container">
+        <div>
             <img src="images/logo.png" class="logo">
             <div class="header-text">
                 <h1>Lorem ipsum. <br>Consequuntur eius natus culpa qcabo, quam quasi? Ipsam!</h1>
@@ -26,8 +26,8 @@
     </section>
     <nav id="sideNav">
         <ul>
-            <li><a href="">HOME</a></li>
-            <li><a href="">ABOUT</a></li>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
             <li><a href="">FEATURES</a></li>
             <li><a href="">COURSES</a></li>
             <li><a href="">OFFERS</a></li>
@@ -35,6 +35,59 @@
         </ul>
     </nav>
     <img src="images/menu.png" id="menuBtn">
+    <!-- about -->
+    <section id="about">
+        <div class="about-left-col">
+            <img src="images/about.png">
+        </div>
+        <div class="about-right-col">
+            <div class="about-text">
+                <h2>About us</h2>
+                <span class="square"></span>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam nihil quod aut laudantium sit ipsum, sequi sapiente, quos repellat quia, <br>optio quidem cumque molestiae dolores perferendis unde hic rerum non.</p>
+                <br>
+                <br>
+                <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                </div>
+                <br>
+                <br>
+                <h3>"Lorem ipsum dolor sit amet consectetur adipisicing elit."</h3>
+                <h4>---Abigail Frendcinr</h4>
+            </div>
+        </div>
+    </section>
+    <!--features-->
+    <section id="features">
+        <div class="features-row">
+            <div class="feature-col">
+                <img src="images/pic-1.png" alt="pic-1">
+                <h4>Learn Anywhere</h4>
+                <p>Lorem ipsum dolor sit,ue minima modi reprehenderit dolor non deleniti nemo?</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-2.png" alt="pic-2">
+                <h4>Learn all you want</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing el</p>
+            </div>
+            <div class="feature-col">
+                <img src="images/pic-3.png" alt="pic-3">
+                <h4>Learn </h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+
+                </div>
+        </div>
+        <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+            </div>
+            <button class="common-btn">Start here </button>
+        </div>
+    </section>
     <script>
         var menuBtn = document.getElementById("menuBtn");
         var sideNav = document.getElementById("sideNav");

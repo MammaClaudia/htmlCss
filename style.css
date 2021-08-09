@@ -15,11 +15,13 @@
 }
 .logo {
     margin-top: 30px;
+    margin-left: 100px;
     width: 100px;
 }
 .header-text {
     max-width: 350px;
     margin-top: 140px;
+    margin-left: 100px;
 }
 h1 {
 font-size: 34px;
@@ -93,4 +95,77 @@ nav ul li a {
     top: 35px;
     z-index: 2;
     cursor: pointer;
+}
+/* ABOUT */
+#about {
+    padding: 100px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-left-col {
+    flex-basis: 50%;
+}
+.about-left-col img {
+    width: 100%;
+}
+.about-right-col{
+    width: 50%;
+    text-align: right;
+}
+.about-text {
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.about-text h2{
+    margin: 50px O 10px;
+    font-size: 32px;
+}
+.about-text h3 {
+    margin: 50px O 10px;
+    font-size: 28px;
+    font-style: italic;
+}
+.about-text h4 {
+    font-size: 2Opx;
+    font-style: italic;
+    color: #787878;
+}
+/*--features--*/
+#features {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.features-row{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.feature-col{
+    flex-basis: 25%;
+    text-align: center;
+}
+.feature-col img {
+    width: 100px;
+}
+.feature-col h4 {
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.feature-btn {
+    margin: 80px auto O;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.feature-btn .line {
+    text-align: right;
+    display: inline-block;
+    margin-right: 25px;
+
 }
